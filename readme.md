@@ -18,16 +18,6 @@ Steps, as shown in quick start:
 Note: Updating code on circuitPython "drive" will update the code running. 
 
 
-# Serial Terminal
-https://learn.adafruit.com/adafruit-circuit-playground-express/connecting-to-the-serial-console 
-I used PuTTY on Windows + VS code to access the serial port, but you can use the "Mu" editor it recommends for an all in 1 IDE (lame)
-> Device manager, Find COM port its connected on (This i don't know how to do on MAC)
-> Find correct port, set speed (115200) and connect 
-
-
-
-
-
 
 # Scratch Like Interface
 For scratch like interface: https://makecode.adafruit.com/ 
@@ -36,6 +26,19 @@ Works with JavaScript too!
 > Programming Mode (Double tap reset button from python, 1 reset from using mode) Lights will go GREEN when in bootloader 
 > Copy the uf2 file 
 
+![Scratch Interface](https://github.com/Raggey/circuit-python-tut/blob/master/ScratchLikeInterface.png)
+
+
+
+# Serial Terminal
+https://learn.adafruit.com/adafruit-circuit-playground-express/connecting-to-the-serial-console 
+
+I used PuTTY on Windows + VS code to access the serial port, but you can use the "Mu" editor it recommends for an all in 1 IDE (lame)
+> Device manager, Find COM port its connected on (This i don't know how to do on MAC)
+> Find correct port, set speed (115200) and connect 
+
+
+![Serial Image](https://github.com/Raggey/circuit-python-tut/blob/master/serialInterface.png)
 
 
 
